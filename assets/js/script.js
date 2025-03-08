@@ -59,19 +59,19 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | CodeWithTanveer";
-            $("#favicon").attr("href", "assets/images/favicon.jpg");
+            document.title = "Portfolio | Sahil Shirgaonkar";
+            $("#favicon").attr("href", "assets/images/personal.jpg");
         }
         else {
-            document.title = "Portfolio | Tanveer Ahmad";
-            $("#favicon").attr("href", "assets/images/favicon.jpg");
+            document.title = "Portfolio | Sahil Shirgaonkar";
+            $("#favicon").attr("href", "assets/images/personal.jpg");
         }
     });
 
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["frontend development", "backend development", "web designing", "android development", "Full Stack Web Development"],
+    strings: ["python development", "cloud engineering", "data manipulation and analysis", "automation and ai integration"],
     loop: true,
     typeSpeed: 60,
     backSpeed: 30,
